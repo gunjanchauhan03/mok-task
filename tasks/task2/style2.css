@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main {
+    background: rgb(179, 205, 188);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    z-index: 0;
+    background: green;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    left: -25px;
+    top: 50px;
+}
+
+.circle .inner-circle {
+    width: 320px;
+    height: 320px;
+    background: rgb(179, 205, 188);
+    border-radius: 50%;
+}
+
+.container {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 750px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.touch {
+    background: white;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px 0px 0px 20px;
+    
+}
+
+.icon-touch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.icon-content i {
+    color: green;
+}
+
+.lower-icon {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lower-icon i {
+    border: 2px solid;
+    background: green;
+    color: white;
+    padding: 8px;
+    width: 35px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.contact {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    background: rgb(63, 200, 161);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.square {
+    left: -15px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(225deg);
+    position: absolute;
+    background-color: rgb(63, 200, 161);    
+    z-index: 0;
+}
+
+.contact input {
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 30px;
+    padding: 8px 20px;
+    color: white;
+}
+
+.contact textarea {
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+button {
+    background: white;
+    color: rgb(23, 226, 169);
+    border-radius: 30px;
+    border: none;
+    width: 70px;
+    padding: 10px 15px;
+}
+
+.small-circle{
+    position: absolute;
+    z-index: 0;
+    background: rgb(193, 220, 193);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    left: 180px;
+    top: 320px;
+}
+.small-circle .small-circle-inner{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+}
